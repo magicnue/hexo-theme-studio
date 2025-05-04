@@ -3,25 +3,25 @@
 #####################################
 # Menu
 menu:
-  Home: /
-  Archives: archives
-  Topics: categories
+  Home / 主页: /
+  Archives / 存档: archives
+  Topics / 主题: categories
   CV: cv
   Projects: projects 
   Ethos: ethos
-  About: about
+  About / 关于: about
 rss: /atom.xml
 
 # Sidebar
 widgets:
-  #- profile
-  #- social
-  #- recent_posts
-  #- category
-  #- archive
+  # - profile
+  # - social
+  - recent_posts
+  - category
+  - archive
 
 # Widget Options
-archive_type: 'monthly'
+archive_type: monthly
 show_count: true
 
 # Profile Picture - place inside /source/img
@@ -32,10 +32,11 @@ profile: /img/profile.jpg
 # Key is Font Awesome icon name, value is target link
 # See Font Awesome icons at: https://fontawesome.com/icons?d=gallery
 social:
-  LinkedIn-In: https://www.linkedin.com/in/michaelthanh/
-  Github: https://github.com/mvxt
-  Medium-M: https://medium.com/@michael.thanh
-  Twitter: https://twitter.com/mikeyvxt
+#   LinkedIn-In: https://www.linkedin.com/in/michaelthanh/
+#   facebook: https://www.linkedin.com/in/michaelthanh/
+   Github: https://github.com/magicnue
+#    Medium-M: https://medium.com/@michael.thanh
+#   Twitter: https://twitter.com/mikeyvxt
 
 # Search
 search:
@@ -44,6 +45,6 @@ search:
 # HTML Page Metadata
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-favicon: favicon.ico
+favicon: img/UN-logo.svg
 google_site_verification: FHK_lhsTlcLbPDI5IkA4bjEvJ2R6JzO66YFIP83rNwg
 
